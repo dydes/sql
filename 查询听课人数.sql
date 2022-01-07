@@ -1,0 +1,1 @@
+SELECT t1.id,t1.name,t1.school_id,t2.full_name,t1.entry_year,t1.present_num,t1.start_time FROM htlive.course t1 left join htuser_new.school_info t2 on t1.school_id=t2.id where t1.start_time >=20210801;
